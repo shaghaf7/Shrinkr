@@ -5,7 +5,7 @@
 
 - [Node.js](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)(you can use neondb if you want to host it for free)
--You can get Your fee database inistance from the Neondb database
+-You can get Your free database from the Neondb database
 ### Setting up the project
 
 1. Clone the repository
