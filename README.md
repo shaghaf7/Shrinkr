@@ -1,14 +1,3 @@
-<h1 align="center" >
-    URL Shortener
-</h1>
-
-<h4 align="center">
-  A simple URL shortener made with Nextjs and PostgreSQL
-</h4>
-
-### Usage
-
-Go [here](https://shortly.cantcode.fyi) to use the app.
 
 ## Setting Up Locally
 
@@ -16,19 +5,19 @@ Go [here](https://shortly.cantcode.fyi) to use the app.
 
 - [Node.js](https://nodejs.org/en/)
 - [PostgreSQL](https://www.postgresql.org/)(you can use neondb if you want to host it for free)
-
+-You can get Your fee database inistance from the Neondb database
 ### Setting up the project
 
 1. Clone the repository
 
 ```bash
-git clone https://github.com/phantomknight287/url-shortner.git
+git clone https://github.com/shaghaf7/Shrinkr.git
 ```
 
 2. Install dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 3. Create a .env file in the root directory and add the following
@@ -46,7 +35,7 @@ npx prisma db push
 5. Run the development server
 
 ```bash
-pnpm dev
+npm dev
 ```
 
 6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
