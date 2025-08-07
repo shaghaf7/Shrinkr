@@ -1,5 +1,5 @@
 <h1 align="center" >
-    URL Shortener
+    Shrinkr
 </h1>
 
 <h4 align="center">
@@ -8,7 +8,7 @@
 
 ### Usage
 
-Go [here](https://shortly.cantcode.fyi) to use the app.
+Go [here](https://shrinkr-neon.vercel.app/) to use the app.
 
 ## Setting Up Locally
 
@@ -22,13 +22,13 @@ Go [here](https://shortly.cantcode.fyi) to use the app.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/phantomknight287/url-shortner.git
+git clone https://github.com/shaghaf7/Shrinkr
 ```
 
 2. Install dependencies
 
 ```bash
-pnpm install
+npm install
 ```
 
 3. Create a .env file in the root directory and add the following
@@ -46,7 +46,7 @@ npx prisma db push
 5. Run the development server
 
 ```bash
-pnpm dev
+npm run dev
 ```
 
 6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
