@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import HomePageContent from "./page.content";
 
 export const metadata: Metadata = {
-  title: "Shortly",
+  title: "Shrinkr",
   description: "A URL shortener",
   openGraph: {
     type: "website",
-    url: "https://shortly.cantcode.fyi",
-    title: "Shortly",
+    url: "https://Shrinkr.cantcode.fyi",
+    title: "Shrinkr",
     description: "A URL shortener",
   },
 };
